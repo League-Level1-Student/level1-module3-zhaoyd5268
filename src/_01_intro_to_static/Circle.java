@@ -6,15 +6,15 @@ import java.util.Random;
 
 public class Circle {
     int x, y;
-
+  
     /*
      * Add/remove the word "static" at the beginning of these variables
      */
-    int radius;
-    Color color;
+ int radius;
+  Color color;
 
     public Circle(int r, Color c) {
-        radius = r;
+      radius = r;
         color = c;
 
         Random rand = new Random();
